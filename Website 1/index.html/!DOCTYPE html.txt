@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Civil Might - CAD-Design & Constructions Consultancy</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        /* Optional: Preload the image for the hero section to ensure "flash" look */
+        .hero-section {
+            background-image: url('placeholder-hero.jpg'); /* Replace with a high-quality, relevant hero image */
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="civil_might_logo.png" alt="Civil Might Logo" class="logo-img">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h1>BUILDING A STRONGER TOMORROW</h1>
+            <p>CAD-Design & Constructions Consultancy</p>
+            <a href="#services" class="cta-button">Explore Our Expertise</a>
+        </div>
+    </section>
+
+    <section id="services" class="content-section services-section">
+        <h2>🏗️ Services Offered</h2>
+        <div class="service-grid">
+            <div class="service-item">
+                <h3>2D Floor Plans</h3>
+                <p>Precise and detailed blueprints for foundational clarity.</p>
+            </div>
+            <div class="service-item">
+                <h3>3D Modeling & Rendering</h3>
+                <p>Bringing your vision to life with realistic, high-fidelity models.</p>
+            </div>
+            <div class="service-item">
+                <h3>Exterior Designs</h3>
+                <p>Aesthetically pleasing and structurally sound facade concepts.</p>
+            </div>
+            <div class="service-item">
+                <h3>Interior Design & Layout</h3>
+                <p>Creating functional and elegant indoor spaces.</p>
+            </div>
+            <div class="service-item">
+                <h3>Project Management</h3>
+                <p>Overseeing every phase for timely and quality completion.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="content-section projects-section">
+        <h2>⭐ Featured Projects</h2>
+        <div class="project-gallery">
+            <figure class="project-item">
+                <img src="1000021302.jpg" alt="Elegant Living Room and Wine Cabinet Design">
+                <figcaption>Elegant Interior Design (Living & Bar)</figcaption>
+            </figure>
+            <figure class="project-item">
+                <img src="1000020494.jpg" alt="Modern House Exterior Design and Floorplan">
+                <figcaption>Modern Exterior & Floorplan</figcaption>
+            </figure>
+            <figure class="project-item">
+                <img src="1000021304.jpg" alt="Detailed Interior Areas (Living, Dining, Kitchen)">
+                <figcaption>Detailed Interior Concepts</figcaption>
+            </figure>
+            <figure class="project-item">
+                <img src="1000021200.jpg" alt="North Facing House Ground Floor Plan">
+                <figcaption>North Facing House Plan (1500 sqft)</figcaption>
+            </figure>
+            <figure class="project-item">
+                <img src="1000021210.jpg" alt="4 BHK House Elevation and Floor Plan">
+                <figcaption>4 BHK House Design (1415 sqft)</figcaption>
+            </figure>
+            <figure class="project-item">
+                <img src="1000021199.jpg" alt="Contemporary House with Plans and Cross-section">
+                <figcaption>Contemporary House Design & Plans</figcaption>
+            </figure>
+            
+        </div>
+        <p class="gallery-note">A collection of our designs, from luxurious interiors to comprehensive floor plans and elevations.</p>
+    </section>
+
+    <section id="contact" class="content-section contact-section">
+        <h2>📞 Contact Us</h2>
+        <div class="contact-info">
+            <div class="contact-details">
+                <h3>Get in Touch</h3>
+                <p>We are ready to start building a stronger tomorrow with you. Contact us for a consultation.</p>
+                <ul>
+                    <li>**Phone (Primary):** +91-8125810252</li>
+                    <li>**Phone (Secondary):** +91-6309605124</li>
+                    <li>**Email:** civilmight25@gmail.com</li>
+                </ul>
+            </div>
+            <div class="contact-form-placeholder">
+                <p>Fill out the form below to send us a message:</p>
+                <form action="#" method="POST">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message / Project Inquiry" rows="4" required></textarea>
+                    <button type="submit" class="cta-button">Send Inquiry</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Civil Might. All rights reserved. | Building a Stronger Tomorrow</p>
+    </footer>
+
+</body>
+</html>
