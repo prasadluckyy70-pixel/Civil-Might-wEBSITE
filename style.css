@@ -90,7 +90,7 @@ nav ul li a:hover::after {
 
 /* Hero Section - The "Flash Look" remains the same */
 .hero-section {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('placeholder-hero.jpg'); 
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/placeholder-hero.jpg'); 
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -337,3 +337,4 @@ footer {
         max-width: 400px;
     }
 }
+
