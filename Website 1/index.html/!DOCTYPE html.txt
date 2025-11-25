@@ -9,7 +9,7 @@
     <style>
         /* Optional: Preload the image for the hero section to ensure "flash" look */
         .hero-section {
-            background-image: url('placeholder-hero.jpg'); /* Replace with a high-quality, relevant hero image */
+            background-image: url('images/placeholder-hero.jpg'); /* Replace with a high-quality, relevant hero image */
             background-size: cover;
             background-position: center;
             height: 100vh;
@@ -24,7 +24,7 @@
 
     <header>
         <div class="logo">
-            <img src="civil_might_logo.png" alt="Civil Might Logo" class="logo-img">
+            <img src="images/civil_might_logo" class="logo-img">
         </div>
         <nav>
             <ul>
@@ -74,27 +74,27 @@
         <h2>⭐ Featured Projects</h2>
         <div class="project-gallery">
             <figure class="project-item">
-                <img src="1000021302.jpg" alt="Elegant Living Room and Wine Cabinet Design">
+                <img src="images/1000021302.jpg" alt="Elegant Living Room and Wine Cabinet Design">
                 <figcaption>Elegant Interior Design (Living & Bar)</figcaption>
             </figure>
             <figure class="project-item">
-                <img src="1000020494.jpg" alt="Modern House Exterior Design and Floorplan">
+                <img src="images/1000020494.jpg" alt="Modern House Exterior Design and Floorplan">
                 <figcaption>Modern Exterior & Floorplan</figcaption>
             </figure>
             <figure class="project-item">
-                <img src="1000021304.jpg" alt="Detailed Interior Areas (Living, Dining, Kitchen)">
+                <img src="images/1000021304.jpg" alt="Detailed Interior Areas (Living, Dining, Kitchen)">
                 <figcaption>Detailed Interior Concepts</figcaption>
             </figure>
             <figure class="project-item">
-                <img src="1000021200.jpg" alt="North Facing House Ground Floor Plan">
+                <img src="images/1000021200.jpg" alt="North Facing House Ground Floor Plan">
                 <figcaption>North Facing House Plan (1500 sqft)</figcaption>
             </figure>
             <figure class="project-item">
-                <img src="1000021210.jpg" alt="4 BHK House Elevation and Floor Plan">
+                <img src="images/1000021210.jpg" alt="4 BHK House Elevation and Floor Plan">
                 <figcaption>4 BHK House Design (1415 sqft)</figcaption>
             </figure>
             <figure class="project-item">
-                <img src="1000021199.jpg" alt="Contemporary House with Plans and Cross-section">
+                <img src="images/1000021199.jpg" alt="Contemporary House with Plans and Cross-section">
                 <figcaption>Contemporary House Design & Plans</figcaption>
             </figure>
             
@@ -133,3 +133,4 @@
 </body>
 
 </html>
+
