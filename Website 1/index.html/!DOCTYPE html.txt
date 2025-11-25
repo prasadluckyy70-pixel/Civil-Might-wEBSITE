@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Civil Might - CAD-Design & Constructions Consultancy</title>
-    <link rel="stylesheet" href="Website1/style.css">
+    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
     <style>
-        /* Optional: Preload the image for the hero section to ensure "flash" look */
+        /* CRITICAL FIX: Image path now correctly points into the 'images' folder from the 'Website 1' folder */
         .hero-section {
-            background-image: url('images/placeholder-hero.jpg'); /* Replace with a high-quality, relevant hero image */
+            background-image: url('images/3DELEVATION.jpeg'); /* Using one of your uploaded files as the hero image */
             background-size: cover;
             background-position: center;
             height: 100vh;
@@ -24,7 +24,7 @@
 
     <header>
         <div class="logo">
-            <img src="images/civil_might_logo" class="logo-img">
+            <img src="images/logo.png" alt="Civil Might Logo" class="logo-img">
         </div>
         <nav>
             <ul>
@@ -74,28 +74,28 @@
         <h2>⭐ Featured Projects</h2>
         <div class="project-gallery">
             <figure class="project-item">
-                <img src="images/1000021302.jpg" alt="Elegant Living Room and Wine Cabinet Design">
-                <figcaption>Elegant Interior Design (Living & Bar)</figcaption>
-            </figure>
-            <figure class="project-item">
-                <img src="images/1000020494.jpg" alt="Modern House Exterior Design and Floorplan">
+                <img src="images/EXTERIORFLOORPLAN.jpeg" alt="Modern House Exterior Design and Floorplan">
                 <figcaption>Modern Exterior & Floorplan</figcaption>
             </figure>
             <figure class="project-item">
-                <img src="images/1000021304.jpg" alt="Detailed Interior Areas (Living, Dining, Kitchen)">
+                <img src="images/INTERIORDESIGN.jpeg" alt="Detailed Interior Areas (Living, Dining, Kitchen)">
                 <figcaption>Detailed Interior Concepts</figcaption>
             </figure>
             <figure class="project-item">
-                <img src="images/1000021200.jpg" alt="North Facing House Ground Floor Plan">
-                <figcaption>North Facing House Plan (1500 sqft)</figcaption>
-            </figure>
-            <figure class="project-item">
-                <img src="images/1000021210.jpg" alt="4 BHK House Elevation and Floor Plan">
+                <img src="images/FLOORPLAN.jpeg" alt="4 BHK House Elevation and Floor Plan">
                 <figcaption>4 BHK House Design (1415 sqft)</figcaption>
             </figure>
             <figure class="project-item">
-                <img src="images/1000021199.jpg" alt="Contemporary House with Plans and Cross-section">
+                <img src="images/FLOORPLAN3.jpeg" alt="North Facing House Ground Floor Plan">
+                <figcaption>North Facing House Plan (1500 sqft)</figcaption>
+            </figure>
+            <figure class="project-item">
+                <img src="images/FLOORPLAN2.jpeg" alt="Contemporary House with Plans and Cross-section">
                 <figcaption>Contemporary House Design & Plans</figcaption>
+            </figure>
+            <figure class="project-item">
+                <img src="images/INTERIR2.jpeg" alt="Elegant Living Room and Wine Cabinet Design">
+                <figcaption>Elegant Interior Design (Living & Bar)</figcaption>
             </figure>
             
         </div>
@@ -131,6 +131,4 @@
     </footer>
 
 </body>
-
 </html>
-
